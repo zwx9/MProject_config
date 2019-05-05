@@ -24,3 +24,6 @@ spring:
       
   rabbitmq:
     host: 47.106.248.31
+    
+zwx:
+  name: zwx
