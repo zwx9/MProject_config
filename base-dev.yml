@@ -21,3 +21,6 @@ spring:
       database: MySQL
       show-sql: true
       generate-ddl: true
+      
+  rabbitmq:
+    host: 47.106.248.31
