@@ -17,6 +17,6 @@ spring:
 aliyun:
   sms:
     signName : 蓝桥电商
-    accessKeyId : LTAILeEkYHKWhrPt
-    accessKeySecret : oKfBo1QIxRKKFFeCSLl51wUPehokFT
-    templateCode : SMS_163851264
+    accessKeyId : 蓝桥电商
+    accessKeySecret : 蓝桥电商
+    templateCode : 蓝桥电商
