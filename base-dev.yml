@@ -24,6 +24,10 @@ spring:
       
   rabbitmq:
     host: 47.106.248.31
-    
+  mvc:
+    static-path-pattern: /**
+    view:
+      suffix: .html
+      prefix: /
 zwx:
   name: zhanweixuan
