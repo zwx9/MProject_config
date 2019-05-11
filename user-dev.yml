@@ -34,3 +34,9 @@ jwt:
   config:
     key: user
     expire: 3600000
+    spring:
+mvc:
+  static-path-pattern: /**
+  view:
+    suffix: .html
+    prefix: /
