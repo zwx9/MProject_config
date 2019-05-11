@@ -34,12 +34,12 @@ jwt:
   config:
     key: user
     expire: 3600000
-mvc:
-  static-path-pattern: /**
-  view:
-    suffix: .html
-    prefix: /
-resources:
+  mvc:
+    static-path-pattern: /**
+    view:
+      suffix: .html
+      prefix: /
+  resources:
     static-locations: classpath:/resources/,
       classpath:/resources/,
       classpath:/static/,
