@@ -23,6 +23,18 @@ spring:
     show-sql: true
     generate-ddl: true
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  mvc:
+    static-path-pattern: /**
+    view:
+      suffix: .html
+      prefix: /
+  resources:
+    static-locations: classpath:/resources/,
+      classpath:/resources/,
+      classpath:/static/,
+      classpath:/public/,
+      classpath:/itstyle/
+    
 #    dialect: org.hibernate.dialect.MySQL5Dialect
 #
 #    hibernate:
