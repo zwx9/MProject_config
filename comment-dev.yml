@@ -19,4 +19,16 @@ spring:
   redis:
       host: 47.106.248.31
       port: 6379
+      
+  mvc:
+    static-path-pattern: /**
+    view:
+      suffix: .html
+      prefix: /
+  resources:
+    static-locations: classpath:/resources/,
+      classpath:/resources/,
+      classpath:/static/,
+      classpath:/public/,
+      classpath:/itstyle/
 
